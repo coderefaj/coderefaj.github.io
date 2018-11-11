@@ -4,11 +4,8 @@ title: "Machine Learning - Linear Regression"
 date: 2018-10-11 23:11:06 
 comments: true
 ---
-<!DOCTYPE html>
-<html>
-<head><meta charset="utf-8" />
 
-<title>Regression - Linear Model</title>
+Regression - Linear Model
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -13830,9 +13827,3 @@ Denominator :  118.5
 </div>
     </div>
   </div>
-</body>
-
- 
-
-
-</html>
