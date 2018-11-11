@@ -1,19 +1,18 @@
 # Machine Learning and its types 
 
-What is Machine Learning ?
+### What is Machine Learning ?
 
 #### Machine learning is about making computers modify or adapt their actions (whether these actions are making predictions, or controlling a robot) so that these actions get more accurate, where accuracy is measured by how well the chosen actions reflect the correct ones.
 
 #### Machine learning is making computers to learn by past data ( results ) and to predict the new input . In otherwords machine learning is the process of teaching the machine by itself without being explicitly programmed . 
 
-### Types : 
 
-<b> Supervised learning : </b>
+### Supervised learning : 
 
 #### In Supervised Learning , we are able to oversee both the input data and the output data . With these , algorithm trains the model . This is also called learning from exemplars.
+#### Supervised is been Classified into 
 
-Supervised is been Classified into 
-1. <b> Classification :</b>
+### **Classification** : 
  
 #### In classification, the goal is to predict a class label, which is a choice from a predefined list of possibilities. Classification is sometimes separated into binary classification, which is the special case of distinguishing between exactly two classes, and multiclass classification, which is classification between more than two classes.
 
@@ -21,9 +20,7 @@ Supervised is been Classified into
 
 #### The iris example, on the other hand, is an example of a multiclass classification problem. Another example is predicting what language a website is in from the text on the website. The classes here would be a pre-defined list of possible languages.
 
-####	Handwriting Digit Recognition , Character Recognition , Classify between cats and dogs , Image Classification , Diagnostics , Identity Fraud Detection , Email Spam filtering are some of classification projects . 
-
-	We will soon cover all of these . 
+####	Handwriting Digit Recognition , Character Recognition , Classify between cats and dogs , Image Classification , Diagnostics , Identity Fraud Detection , Email Spam filtering are some of classification projects . We will soon cover all of these . 
 
 #### Classification Algorithms : 
 >1. Logistic Regression ( Don't Confuse with regression )
@@ -34,7 +31,7 @@ Supervised is been Classified into
 >6. Random Forest 
 >7. Support Vector Machine (Mostly Preferred.)[Both classification and regression]
 
-2. Regression : 
+### **Regression** : 
 
 	
 #### Regression is to predict a continuous number, or a floating-point number in programming terms (or real number in mathematical terms).
@@ -43,11 +40,11 @@ Supervised is been Classified into
 
 #### 	Market Forecasting , Price Prediction , Population Growth Prediction are some of applications for regression model .
 
-1. Linear Regression 
-2. Lasso Regression 
-3. Support Vector Machines 
-4. Multivariate Regression Algorithm
-5. Multiple Regression Algorithm 
+>1. Linear Regression 
+>2. Lasso Regression 
+>3. Support Vector Machines 
+>4. Multivariate Regression Algorithm
+>5. Multiple Regression Algorithm 
 
 
 ### Unsupervised learning : 
@@ -56,25 +53,22 @@ Supervised is been Classified into
 #### In Unsupervised Learning , the input data are not been labelled , which means they donot have any expected output for each input . Rather the the algorithms are left to themselves to discover interesting structures in the data .
 
 
-#### Correct responses are not provided, but instead the algorithm tries to identify similarities between the inputs so that inputs  that have something in common are categorised together. The statistical approach to unsupervised learning is known as density estimation.</p>
+#### Correct responses are not provided, but instead the algorithm tries to identify similarities between the inputs so that inputs  that have something in common are categorised together. The statistical approach to unsupervised learning is known as density estimation.Unsupervised learning is been split into 
 
+### **Clustering** .
 
-Unsupervised learning is been split into 
-
-1.  Clustering .
-
-Clustering , means identifying the identical features from the given data and grouping together . 
+#### Clustering , means identifying the identical features from the given data and grouping together . 
 Therby forming many groups and labelling it . 
 
 ![](https://raw.githubusercontent.com/coderefaj/coderefaj.github.io/master/images/ml/classification_example.jpeg)
 
-In the above image, the image to the left is raw data where the classification isn’t done, the image in the right is clustered(the data is classified based on its features). When an input is given which is to be predicted then it checks in the cluster it belongs based on it’s features, and the prediction is made.
+#### In the above image, the image to the left is raw data where the classification isn’t done, the image in the right is clustered(the data is classified based on its features). When an input is given which is to be predicted then it checks in the cluster it belongs based on it’s features, and the prediction is made.
 
-Various Clustering Algorithms 
+#### Various Clustering Algorithms 
 
-1. K means Clustering 
-2. One Hierarchial Clustering 
-3. Agglomerative Hierarchial Cluatering
+>1. K means Clustering 
+>2. One Hierarchial Clustering 
+>3. Agglomerative Hierarchial Cluatering
 
 
 
@@ -85,7 +79,6 @@ Various Clustering Algorithms
 because of this monitor that scores the answer, but does not suggest improvement .
 
 #### Reinforcement Learning is a type of Machine Learning, and thereby also a branch of Artificial Intelligence. It allows machines and software agents to automatically determine the ideal behaviour within a specific context, in order to maximize its performance. Simple reward feedback is required for the agent to learn its behaviour; this is known as the reinforcement signal.
-</p>
 
 For Reference : [Reinforment Learning ](https://towardsdatascience.com/introduction-to-various-reinforcement-learning-algorithms-i-q-learning-sarsa-dqn-ddpg-72a5e0cb6287)
 
