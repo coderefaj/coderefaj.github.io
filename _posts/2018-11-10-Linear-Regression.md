@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Machine Learning - Linear Regression"
+date: 2018-10-11 23:11:06 
+comments: true
+---
 <!DOCTYPE html>
 <html>
 <head><meta charset="utf-8" />
