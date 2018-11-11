@@ -149,7 +149,7 @@ So far we have calculated
 Inorder to calculate value of m 
 
 
-| x  | y  | x- mean_x | y- mean_y  |  (x-mean_x)*(x-mean_x) | (x-mean_x)*(y-mean_y) |
+<p>| x  | y  | x- mean<em>x | y- mean</em>y  |  (x-mean<em>x)*(x-mean</em>x) | (x-mean<em>x)*(y-mean</em>y) |
 |-----|-------|---------|---------|----------------|-------------------|
 | 0   |  1    | -4.5    |   -5.5  |  20.25         |       24.75       |
 | 1   |  3    | -3.5    |   -3.5  |  12.25         |       12.25       |
@@ -160,8 +160,7 @@ Inorder to calculate value of m
 | 6   |  8    | 1.5     |   1.5   |  2.25          |       2.25        |
 | 7   |  9    | 2.5     |   2.5   |  6.25          |       6.25        |
 | 8   |  10   | 3.5     |   3.5   |  12.25         |       12.25       |
-| 9   |  12   | 4.5     |   5.5   |  20.25         |       24.75       |
-
+| 9   |  12   | 4.5     |   5.5   |  20.25         |       24.75       |</p>
 
 
 m = (96.5)/(82.5)
@@ -241,7 +240,7 @@ R-squared is always between 0 and 100%:
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\begin{align}&space;R^{2}&space;=&space;\sum&space;(y_{p}&space;-&space;\overline{y})^{2}&space;/&space;\sum&space;(y&space;-&space;\overline{y})^{2}&space;\end{align}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\begin{align}&space;R^{2}&space;=&space;\sum&space;(y_{p}&space;-&space;\overline{y})^{2}&space;/&space;\sum&space;(y&space;-&space;\overline{y})^{2}&space;\end{align}" title="\begin{align} R^{2} = \sum (y_{p} - \overline{y})^{2} / \sum (y - \overline{y})^{2} \end{align}" /></a>
 
-| x |y_pred |
+<p>| x |y_pred |
 |---|---------------------------------|
 | 0 | 1.2368 |
 | 0 | 2.4063 |
@@ -252,7 +251,7 @@ R-squared is always between 0 and 100%:
 | 0 | 8.2544 |
 | 0 | 9.4240 |
 | 0 | 10.5936 |
-| 0 | 11.7632 |
+| 0 | 11.7632 |</p>
 
 (i.e) Distance of actual mean vs Distance of Predicted mean 
 
