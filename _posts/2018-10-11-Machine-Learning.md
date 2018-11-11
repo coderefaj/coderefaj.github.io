@@ -6,9 +6,10 @@ Machine learning is making computers to learn by past data ( results ) and to pr
 
 ### Types : 
 
-<b> Supervised learning : </b>
-	<h5>
-	In Supervised Learning , we are able to oversee both the input data and the output data . With these , algorithm trains the model . This is also called learning from exemplars.
+###<b><u> Supervised learning : </u></b>
+
+<h5>	
+In Supervised Learning , we are able to oversee both the input data and the output data . With these , algorithm trains the model . This is also called learning from exemplars.
 
 Supervised is been Classified into 
 1. Classification :
@@ -23,7 +24,7 @@ Supervised is been Classified into
 
 	We will soon cover all of these . 
 
-#### Classification Algorithms : 
+<b> Classification Algorithms :</b> 
 		1. Logistic Regression ( Don't Confuse with regression )
 		2. Naive Bayes 
 		3. Stochastic Gradient Descent 
@@ -48,7 +49,7 @@ Supervised is been Classified into
 	5. Multiple Regression Algorithm 
 
 
-<b> Unsupervised learning :</b> 
+#### <b> Unsupervised learning :</b> 
 
 <p>
 In Unsupervised Learning , the input data are not been labelled , which means they donot have any expected output for each input . Rather the the algorithms are left to themselves to discover interesting structures in the data .Correct responses are not provided, but instead the algorithm tries to identify similarities between the inputs so that inputs  that have something in common are categorised together. The statistical approach to unsupervised learning is known as density estimation.</p>
@@ -60,18 +61,20 @@ Unsupervised learning is been split into
 		<p> Clustering , means identifying the identical features from the given data and grouping together . 
 		Therby forming many groups and labelling it . 
 
-	<center>
-	!["classification"]( /images/ml/classification_example.jpeg "Classification Image Sample" =50x50)</center>
+<center>
+!["classification"]( https://raw.githubusercontent.com/coderefaj/coderefaj.github.io/master/images/ml/classification_example.jpeg "Classification Image Sample" =50x50)
+</center>
 	<br>
 	In the above image, the image to the left is raw data where the classification isn’t done, the image in the right is clustered(the data is classified based on its features). When an input is given which is to be predicted then it checks in the cluster it belongs based on it’s features, and the prediction is made.
 
-	Various Clustering Algorithms 
-			1. K means Clustering 
-			2. One Hierarchial Clustering 
-			3. Agglomerative Hierarchial Cluatering 
+Various Clustering Algorithms 
+	1. K means Clustering 
+	2. One Hierarchial Clustering 
+	3. Agglomerative Hierarchial Cluatering 
+
 </p>
 
-<b>Reinforcement learning :</b>
+#### <b>Reinforcement learning :</b>
 
 <p>
 This is somewhere between supervised and unsupervised learning. The algorithm gets told when the answer is wrong, but does not get told how to correct it. It has to explore and try out different possibilities until it works out how to get the answer right. Reinforcement learning is sometime called learning with a critic
