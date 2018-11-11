@@ -13,10 +13,13 @@ Machine learning is making computers to learn by past data ( results ) and to pr
 In Supervised Learning , we are able to oversee both the input data and the output data . With these , algorithm trains the model . This is also called learning from exemplars.
 
 Supervised is been Classified into 
-1. Classification :
+1. <b> Classification :</b>
 	<p> 
-		In classification, the goal is to predict a class label, which is a choice from a predefined list of possibilities. Classification is sometimes separated into binary classification, which is the special case of distinguishing between exactly two classes, and multiclass classification, which is classification between more than two classes. You can think of
-		binary classification as trying to answer a yes/no question. Classifying emails as either spam or not spam is an example of a binary classification problem. In this binary classification task, the yes/no question being asked would be “Is this email spam?”
+		In classification, the goal is to predict a class label, which is a choice from a predefined list of possibilities. Classification is sometimes separated into binary classification, which is the special case of distinguishing between exactly two classes, and multiclass classification, which is classification between more than two classes.
+
+
+		 You can think of binary classification as trying to answer a yes/no question. Classifying emails as either spam or not spam is an example of a binary classification problem. In this binary classification task, the yes/no question being asked would be “Is this email spam?”
+
 
 	The iris example, on the other hand, is an example of a multiclass classification problem. Another example is predicting what language a website is in from the text on the website. The classes here would be a pre-defined list of possible languages.
 	</p>
@@ -26,13 +29,13 @@ Supervised is been Classified into
 	We will soon cover all of these . 
 
 #### Classification Algorithms : 
-		1. Logistic Regression ( Don't Confuse with regression )
-		2. Naive Bayes 
-		3. Stochastic Gradient Descent 
-		4. K-Nearest Neighbour
-		5. Decision Tree 
-		6. Random Forest 
-		7. Support Vector Machine (Mostly Preferred.)[Both classification and regression]
+1. Logistic Regression ( Don't Confuse with regression )
+2. Naive Bayes 
+3. Stochastic Gradient Descent 
+4. K-Nearest Neighbour
+5. Decision Tree 
+6. Random Forest 
+7. Support Vector Machine (Mostly Preferred.)[Both classification and regression]
 
 2. Regression : 
 
@@ -52,8 +55,11 @@ Supervised is been Classified into
 
 <b> Unsupervised learning :</b> 
 
-<p>
-In Unsupervised Learning , the input data are not been labelled , which means they donot have any expected output for each input . Rather the the algorithms are left to themselves to discover interesting structures in the data .Correct responses are not provided, but instead the algorithm tries to identify similarities between the inputs so that inputs  that have something in common are categorised together. The statistical approach to unsupervised learning is known as density estimation.</p>
+
+In Unsupervised Learning , the input data are not been labelled , which means they donot have any expected output for each input . Rather the the algorithms are left to themselves to discover interesting structures in the data .
+
+
+Correct responses are not provided, but instead the algorithm tries to identify similarities between the inputs so that inputs  that have something in common are categorised together. The statistical approach to unsupervised learning is known as density estimation.</p>
 
 
 Unsupervised learning is been split into 
@@ -73,7 +79,7 @@ Various Clustering Algorithms
 2. One Hierarchial Clustering 
 3. Agglomerative Hierarchial Cluatering
 
-</p>
+
 
 <b>Reinforcement learning :</b>
 
