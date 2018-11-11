@@ -1,3 +1,10 @@
+---
+layout: post
+title: "Machine Learning Introduction"
+date: 2018-10-11 12:18:06 
+comments: true
+---
+
 # Machine Learning and its types 
 
 ### What is Machine Learning ?
